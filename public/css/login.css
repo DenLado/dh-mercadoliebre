@@ -1,0 +1,23 @@
+.bg-color {
+  background-color: #ebebeb;
+}
+
+.send-botton {
+  background-color: #1259c3;
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.display-login {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: space-between;
+  display:block;
+}

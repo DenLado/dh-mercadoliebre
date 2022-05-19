@@ -1,0 +1,61 @@
+@media (min-width: 769px) {
+  .product-title {
+    /* visibility: collapse; */
+    display: none;
+  }
+  .product {
+    box-shadow: none;
+  }
+  .product-title:hover.product-title{
+      display:block;
+  }
+  .main-headder-top-bar{
+    max-width: 1200px;
+    margin: auto;
+    align-items:center;
+}
+
+.main-headder-top-bar li{
+    margin:0 10px;
+}
+
+.main-headder-top-bar a{
+    font-size:19px;
+
+}
+
+.main-headder-nav-bar{
+    margin-top:50px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.logo{ 
+    width:250px;
+}
+
+.copy-headder{
+    max-width: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin:0;
+}
+.hamburger-button {
+    display:none;
+}
+.main-header-nav-bar{
+    max-width: 1200px;
+    margin: auto;
+    margin-top:50px;
+}
+.main-header-nav-bar a {
+    font-size: 19px;
+}
+.main-header-nav-bar li{
+    margin: 0 10px;
+}
+.barra{
+    display:block;
+}
+
+}

@@ -1,0 +1,6 @@
+.display-login {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: space-between;
+}

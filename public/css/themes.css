@@ -1,0 +1,177 @@
+/* clase flexbox */
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+/* paleta de colores */
+.bg-amarillo {
+  background-color: #eac926;
+}
+.amarillo {
+  color: #eac926;
+}
+
+.bg-azul {
+  background-color: #03264c;
+}
+.azul {
+  color: #03264c;
+}
+
+.bg-celeste {
+  background-color: #1259c3;
+}
+.celeste {
+  color: #1259c3;
+}
+.gris-osc {
+  color: #666;
+}
+.bg-gris-osc {
+  background-color: #666;
+}
+.bg-gris-claro {
+  background-color: #ebebeb;
+}
+.gris-claro {
+  color: #ebebeb;
+}
+.bg-verde {
+  background-color: #39b54a;
+}
+.verde {
+  color: #39b54a;
+}
+.bg-blanco {
+  background-color: #f8f8ff;
+}
+.font {
+  font-family: roboto;
+}
+/* Basado en tu última visita/Ofertas */
+.font-big {
+  font-size: 24px;
+}
+/* precios */
+.font-med {
+  font-size: 18px;
+}
+/* descuentos y descripciones */
+.font-small {
+  font-size: 16px;
+}
+/* cuerpo del texto <p> */
+.font-text {
+  font-size: 12px;
+}
+
+/* burger-menu */
+
+.burger-menu {
+  text-align: center;
+}
+.burger-menu i {
+  padding: 8px;
+  background-color: #1259c3;
+  color: #ebebeb;
+  border-radius: 5px;
+  display:block;
+  max-width: 50px;
+  padding: 15px 0;
+  text-align:center;
+  font-size:18px;
+  margin:auto;
+}
+
+/*barra de navegacion-clase 14 */
+.main-header{
+    background-color: #eac926;
+    padding: 20px;
+}
+.logo{
+    width:200px;
+}
+.copy-header{
+    font-weight:400;
+    text-align: center;
+}
+
+/* barra de opciones */
+.main-header-nav-bar ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:none;
+    display:flex;
+    flex-wrap:wrap;
+    display:inline-block;
+}
+
+.main-header-nav-bar a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding:5px 0;
+font-size:17px;
+}
+
+.barra{
+    display:none;
+}
+/* elemento de caja */
+.sombra {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/* camion envios */
+.truck-icon {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  color: #39b54a;
+}
+
+.rotation:hover {
+  transform: rotate(-90deg);
+  transition: 1s;
+}
+
+/* titulos h3 descripcion */
+.product-title{
+    display:none;
+}
+
+/* formulario */
+.creat-form{
+    padding:20px 15px;
+}
+.control-form{
+    margin-bottom: 15px;
+}
+.control-form label{
+    margin-bottom: 5px;
+    font-style:italic;
+    display:block;
+}
+.control{
+    width:100%;
+    padding: 8px 8px;
+}
+.botton-form{
+background-color: #1259c3;
+border:none;
+font-size:20px;
+color:#fff;
+padding: 5px 10px;
+border-radius:50%;
+}

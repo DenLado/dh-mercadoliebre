@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/utils.css" />
+
+    <link rel="stylesheet" href="/css/themes.css" />
+    <link rel="stylesheet" href="/css/register.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="/css/styles-tablet.css" />
+    <link rel="stylesheet" href="/css/styles-laptop.css" />
+  </head>
+  <body>
+     <header class="bg-amarillo main-header">
+    <div class="main-header-top-bar">
+    <img src="\images\logo-mercado-liebre.svg" alt="mercado liebre" class="logo"></div>
+<p >Lugar para poner barra de busqueda <i class="fas fa-search"></i> </p> 
+        <h2 class="copy-header">
+          <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta
+          de credito
+        </h2>
+<nav class="main-header-nav-bar main-header-nav-bar a main-header-nav-bar ul barra" >
+        <ul class="left-nav-bar" >
+          <li><a href="/productos">Ofertas</a></li>
+          <li><a href="#">Tiendas Oficiales</a></li>
+          <li><a href="#">Vender</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+        <ul class="right-nav-bar">
+          <li><a href="/register">Crea tu cuenta</a> <i class="far fa-id-card"></i></li>
+          <li><a href="/login">Ingresá</a> <i class="fas fa-sign-in-alt"></i></li>
+          <li><a href="#">Mis Compras</a> </a> <i class="fas fa-shopping-basket"></i></li>
+        </ul>
+      </nav>
+<div class="burger-menu hamburger-button">
+<i class="fas fa-bars"></i>
+</div>
+</header>
+    <form action="/crearproducto" method="POST" class="creat-form form-field">
+      <div class="control-form">
+        <label>Nombre del producto:</label>
+        <input type="text" name="nombre" class="control"/>
+      </div>
+      <div class="control-form">
+        <label>Precio:</label>
+        <input type="number" name="precio" placeholder="123.50" class="control" />
+      </div>
+      <div class="control-form">
+        <label>Está en oferta::</label>
+        <input type="radio" name="oferta" class="control" />
+      </div>
+      <div class="control-form">
+        <label>Categoría:</label>
+        <select name="categoria">
+          <option value="hogar">Hogar</option>
+          <option value="electro">Electro</option>
+          <option value="indumentaria">Indumentaria</option>
+        </select>
+      </div>
+      <div class="control-form">
+        <label>Descripción del producto:</label>
+        <textarea name="descripcion"></textarea>
+      </div>
+      <div>
+        <botton type="submit" class="botton-form">Guardar</botton>
+        <botton type="reset" class="botton-form">Borrar</botton>
+      </div>
+    </form>
+  </body>
+</html>
