@@ -4,8 +4,10 @@ const path = require("path");
 
 const app = express();
 
-app.listen(3000, () => {
-  console.log("el servidor corre en el puerto 3000");
+const PORT= process.env.PORT||3000;
+
+app.listen(PORT, () => {
+  console.log("el servidor corre en el puerto " + PORT);
 });
 
 app.use(express.static(path.join(__dirname, "public")));
