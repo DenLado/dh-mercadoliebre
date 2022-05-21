@@ -3,6 +3,9 @@
             display: flex;
             justify-content:space-between;
         }
+        .w-tablet-50 {
+        width: 50%;
+        }
         .copy-header{
             max-width: 350px;
             text-align: right;
@@ -13,6 +16,7 @@
         .main-header-nav-bar{
             display:flex;
             justify-content: space-between;
+            width:100%;
         }
 
         .main-header-nav-bar ul {
@@ -24,9 +28,26 @@
 
         .barra{
             display:block;
-}
+        }
+        .left-nav-bar{
+            margin:left;
+            display: inline-block;
+            width:50%;
+        }
+        .right-nav-bar{
+            margin:right;
+            display: inline-block;
+            width:50%;
         }
         .product-title{
             display:block;
         }
 
+        .hide {
+             display: none;
+        }
+
+        .hide:hover {
+            display:inline-block;
+        }
+    }

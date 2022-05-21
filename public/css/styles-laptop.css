@@ -6,6 +6,9 @@
   .product {
     box-shadow: none;
   }
+   .w-desktop-25 {
+    width: 25%;
+  }
   .product-title:hover.product-title{
       display:block;
   }
