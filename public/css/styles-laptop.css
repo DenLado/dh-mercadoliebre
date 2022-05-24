@@ -52,13 +52,39 @@
     margin-top:50px;
 }
 .main-header-nav-bar a {
-    font-size: 19px;
+    font-size: 17px;
 }
 .main-header-nav-bar li{
     margin: 0 10px;
 }
 .barra{
-    display:block;
+    display:flex;
 }
 
+ .left-nav-bar {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: left;
+  }
+
+  .right-nav-bar {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: right;
+  }
+.footer{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        align-items: center;
+}
+.w-33{
+    width:33%;
+}
 }

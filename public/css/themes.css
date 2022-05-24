@@ -1,20 +1,21 @@
 /* clase flexbox */
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-main section article i{
-  display:block;
-  font-size:16px;
+main section article i {
+  display: block;
+  font-size: 16px;
   padding: 5px;
-  width:30px;
-  height:30px;
+  width: 30px;
+  height: 30px;
   border: 1px solid #39b54a;
   background-color: #fff;
-  border: radius 50%;position:absolute;
-  right:20px;
-  top:-15px;
+  border: radius 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 
 /* paleta de colores */
@@ -89,93 +90,94 @@ main section article i{
   background-color: #1259c3;
   color: #ebebeb;
   border-radius: 5px;
-  display:block;
+  display: block;
   max-width: 50px;
   padding: 15px 0;
-  text-align:center;
-  font-size:18px;
-  margin:auto;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
 }
 
 /*barra de navegacion-clase 14 */
-.main-header{
-    background-color: #eac926;
-    padding: 20px;
-    
+.main-header {
+  background-color: #eac926;
+  padding: 20px;
+  flex-direction:column;
 }
-.logo{
-    width:200px;
-    max-width:50%
+.logo {
+  width: 200px;
+  
 }
-.search-bar{
+.search-bar {
   background-color: #ebebeb;
   border: 1px solid black;
-  max-width:50%
+  max-width: 50%;
 }
-.copy-header{
-    font-weight:400;
-    text-align: center;
+.copy-header {
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-header-top-bar{
+  flex-direction:column;
 }
 
 /* barra de opciones */
-.main-header-nav-bar ul{
-    list-style: none;
-    margin:0;
-    padding:0;
-    display:none;
-    display:flex;
-    flex-wrap:wrap;
-    display:inline-block;
+.main-header-nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
 }
 
 .main-header-nav-bar a {
   color: black;
   text-decoration: none;
   display: inline-block;
-  padding:5px 0;
-font-size:17px;
+  padding: 5px 0;
+  font-size: 17px;
 }
-.hide{
+
+/* descripcion:hover */ /* titulos h3 descripcion */
+article h3 {
+  opacity: 0;
+}
+
+article h3:hover {
+  opacity: 1;
+}
+
+.barra {
   display: none;
 }
 
-.hide:hover{
-  display:block;
-}
-
-.barra{
-    display:none;
-  }
-/* descripcion:hover */
-
-.hide:hover{
-  display:block;
-}
-
-.prod-sombra{
-  width:100px;
-  height:100px;
+.prod-sombra {
   justify-content: center;
-  align-items:center;
-  opacity:1;
-  transition:opacity 450ms;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 450ms;
 }
 .prod-sombra:hover {
-  opacity:0.5;
+  opacity: 0.5;
 }
 
+.prod-sombra:hover {
+  transition: 450ms;
+}
 
-
-  /* elemento de caja */
+/* elemento de caja */
 .sombra {
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 /* envio-precio,% y descripcion como elemento de caja dentro de la caja del articulo*/
-.caja{
+.caja {
   border: solid #ebebeb;
-  margin-top:1px;
-  padding:15px;
+  margin-top: 1px;
+  padding: 15px;
 }
 
 /* camion envios */
@@ -199,42 +201,36 @@ font-size:17px;
   transition: 1s;
 }
 
-/* titulos h3 descripcion */
-.product-title{
-    display:none;
-}
-
 /* formulario */
-.creat-form{
-    padding:20px 15px;
+.creat-form {
+  padding: 20px 15px;
 }
-.control-form{
-    margin-bottom: 15px;
+.control-form {
+  margin-bottom: 15px;
 }
-.control-form label{
-    margin-bottom: 5px;
-    font-style:italic;
-    display:block;
+.control-form label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
 }
-.control{
-    width:100%;
-    padding: 8px 8px;
+.control {
+  width: 100%;
+  padding: 8px 8px;
 }
-.botton-form{
-background-color: #1259c3;
-border:none;
-font-size:20px;
-color:#fff;
-padding: 5px 10px;
-border-radius:50%;
+.botton-form {
+  background-color: #1259c3;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
 }
 
- /* loggin:footer */
+/* loggin:footer */
 
- .footer{
-   display:flex;
-   flex-wrap:wrap;
-   flex-direction:row;
-   justify-content:space-arround;
-
- }
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-arround;
+}
